@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Chartbot</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <script type="text/javascript" src="polyfills.js"></script>
+    <script type="text/javascript" src="index.js"> </script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <style>
+body, html {
+  margin: 0;
+  padding: 0;
+}
+    </style>
+  </head>
+  <body>
+    <div id='chartbot'>
+      <h1>Welcome to Chartbot</h1>
+
+      <div id='main'>
+        <canvas id="chart"></canvas>
+        <button id='new-chart'>New Chart</button>
+      </div>
+
+      <div id='error' style='display:none'>
+        <h1>OOPS!</h1>
+        <p>Something went wrong there.</p>
+        <p id="error-message"></p>
+        <p>Please refresh the page.</p>
+      </div>
+    </div>
+
+    <footer id='footer'><a href="https://noopschallenge.com/challenges/chartbot">Learn more at noopschallenge.com</a></footer>
+  </body>
+</html>
