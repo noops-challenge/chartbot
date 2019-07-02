@@ -10,13 +10,13 @@ Some have questioned the veracity of all of this data. Lucky for you, all of Cha
 
 ## 📈 API
 
-Chartbot's API has one endpoint: `https://api.noopschallenge.com/chartbot`.
+Chartbot's API has one endpoint: `https://api.noopschallenge.com/chartbot`
 
-This will serve you up a set of data for you to chart. The rest is up to you.
+This will return a set of data for you to chart. The rest is up to you.
 
-Chartbot has two different types of charts: time charts and pie charts. By default, Chartbot will choose one at random to serve to you. You can also choose the type of chart by setting the `type` query parameter: `https://api.noopschallenge.com/chartbot?type=time`.
+Chartbot has two different types of charts: time charts and pie charts. By default, Chartbot will choose one at random. You can specify  the type of chart by passing the `type` query parameter: `https://api.noopschallenge.com/chartbot?type=time`.
 
-Take a look at the [API documentation](./API.md) for more information.
+Read the [API documentation](./API.md) for more information.
 
 ## 🚦 Starters
 
@@ -26,10 +26,10 @@ Chartbot has included [an example](./starter/index.html) that uses the popular [
 
 - **Learn a new library**: Try using [D3](https://d3js.org/) to render Chartbot's data.
 
-- **Build your own charts**: Try building your own chart renderer from scratch using [HTML Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) or [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG). If that's not challenging enough, try using pure CSS!
+- **Build your own charts**: Try building your own chart renderer from scratch using [HTML Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) or [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG). If that's not challenging enough, try using pure CSS (or tables)!
 
 - **ASCII**: Want to render Chartbot's data in your terminal like they did in the good old days before the web was invented? That sounds fun. Show us what you make!
 
 - **Integrate with other Noops**: Integrate the colors from [Hexbot](https://noopschallenge.com/challenges/hexbot) into Chartbot's data. Use [Vexbot's](https://noopschallenge.com/challenges/vexbot) vectors or the patterns from [Directbot](https://noopschallenge.com/challenges/directbot) to create fill patterns.
 
-More about Chartbot here: https://noopschallenge.com/challenges/chartbot
+More about Chartbot at [noopschallenge.com](https://noopschallenge.com/challenges/chartbot).
