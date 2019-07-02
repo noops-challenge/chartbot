@@ -32,3 +32,4 @@ Chartbot has included [an example](./starter/index.html) that uses the popular [
 
 - **Integrate with other Noops**: Integrate the colors from [Hexbot](https://noopschallenge.com/challenges/hexbot) into Chartbot's data. Use [Vexbot's](https://noopschallenge.com/challenges/vexbot) vectors or the patterns from [Directbot](https://noopschallenge.com/challenges/directbot) to create fill patterns.
 
+More about Chartbot here: https://noopschallenge.com/challenges/chartbot
