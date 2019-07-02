@@ -18,7 +18,7 @@ Chartbot has two different types of charts: time charts and pie charts. By defau
 
 Take a look at the [API documentation](./API.md) for more information.
 
-##🚦 Starters
+## 🚦 Starters
 
 Chartbot has included [an example](./starter/index.html) that uses the popular [ChartJS library](https://chartjs.org) to render charts from the Chartbot API.
 
